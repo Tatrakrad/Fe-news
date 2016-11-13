@@ -54,10 +54,15 @@ q:before, q:after {
   margin:0 auto;
 }
 
+.top-bar{
+	padding:1% 0;
+	margin:1% 0;
+}
+
 .top-bar > h2 {
 
-  width:20%;
-  margin: 0% 5%;
+  width:10%;
+	margin-left: 3%;
   padding: 0;
   float:left;
 
@@ -68,7 +73,7 @@ q:before, q:after {
   width:80%;
   height:95%;
   margin:0 auto;
-  padding:1em 0;
+  
   position:relative;
 
 }
