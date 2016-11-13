@@ -1,0 +1,125 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+/* table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+ */
+.page-wrap{
+  font-family:'Tahoma','Helvetica',sans-serif;
+  background-color:slategray;
+  text-align:left;
+  width:80%;
+  height:90%;
+  min-height:900px;
+  margin:0 auto;
+}
+
+.top-bar > h2 {
+  display:inline-block;
+  width:20%;
+  margin: 0% 5%;
+  padding: 0;
+  float:left;
+
+}
+
+.article-list{
+  background-color:orange;
+  width:80%;
+  height:80%;
+  margin:0 auto;
+  padding:1em 0;
+  position:relative;
+
+}
+.article-list ul{
+  list-style-type:none;
+  color:gray;
+  display:inline;
+  float:none;
+  padding:1em;
+}
+/*how float left without going left of title, if title is floated parent collapses */
+
+.article-list ul li{
+  float:left;
+  padding:0 1.5em;
+  width:10%;
+  text-transform:uppercase;
+}
+
+.article-box{
+  background-color:gainsboro;
+  color:black;
+}
+
+.article-box li{
+/*    outline:2px solid black; */
+   padding:0.2em;
+   margin: 1em 2em;
+   color:gray;
+}
+
+.article-box p,h3{
+  color:black;
+}
+
+h1{
+  font-size:2em;
+  padding:1em;
+  letter-spacing:1em;
+  font-weight:900;
+  color:khaki;
+}
+
+h2{
+  padding:0.5em;
+}
+
+h3{
+
+}
+span{
+  padding:0 .5em;
+  color:gray;
+}
