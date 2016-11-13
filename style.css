@@ -49,13 +49,13 @@ q:before, q:after {
   background-color:slategray;
   text-align:left;
   width:80%;
-  height:90%;
+  height:100%;
   min-height:900px;
   margin:0 auto;
 }
 
 .top-bar > h2 {
-  display:inline-block;
+
   width:20%;
   margin: 0% 5%;
   padding: 0;
@@ -66,7 +66,7 @@ q:before, q:after {
 .article-list{
   background-color:orange;
   width:80%;
-  height:80%;
+  height:95%;
   margin:0 auto;
   padding:1em 0;
   position:relative;
@@ -75,28 +75,29 @@ q:before, q:after {
 .article-list ul{
   list-style-type:none;
   color:gray;
-  display:inline;
   float:none;
-  padding:1em;
+	width:80%;
 }
+/*adding margin to the bottom pushes list and header down to next div */
 /*how float left without going left of title, if title is floated parent collapses */
 
 .article-list ul li{
   float:left;
-  padding:0 1.5em;
-  width:10%;
   text-transform:uppercase;
 }
 
 .article-box{
   background-color:gainsboro;
   color:black;
+	height:90%;
+	clear:none;
+
 }
 
 .article-box li{
 /*    outline:2px solid black; */
    padding:0.2em;
-   margin: 1em 2em;
+   margin: 0.5em 2em;
    color:gray;
 }
 
@@ -114,6 +115,7 @@ h1{
 
 h2{
   padding:0.5em;
+	font-weight: 900;
 }
 
 h3{
