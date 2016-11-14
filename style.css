@@ -116,19 +116,21 @@ q:before, q:after {
 
 .footer{
 	height:10%;
-	border-top: 4px solid darkgray;
 	margin: 0 auto;
+	display: table;
+}
+.footer-nav{
+	margin:0 auto;
 }
 /*Aligns left??*/
-.footer ul{
-	margin:1em auto;
+.footer-nav ul{
 	padding:2em 0;
   list-style-type:none;
   float:none;
 	width:100%;
 	text-align: center;
 }/*color works with below but not above selector?*/
-.footer ul li{
+.footer-nav li{
 	color:black;
   float:left;
 	font-size:1em;
