@@ -73,7 +73,7 @@ q:before, q:after {
   width:80%;
   height:90%;
   margin:0 auto;
-
+	overflow: auto;
   position:relative;
 
 }
@@ -99,7 +99,7 @@ q:before, q:after {
   background-color:gainsboro;
   color:black;
 	height:90%;
-	clear:none;
+	clear:both;
 
 }
 
@@ -147,7 +147,7 @@ form{
 	text-align: center;
 	width:100%;
 }
-form p{
+.searchbox p{
 	color:gray;
 	display: inline;
 }
