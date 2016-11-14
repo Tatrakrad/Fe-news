@@ -145,9 +145,10 @@ form{
 	display: inline-block;
 	margin: 0 auto;
 	text-align: center;
-	width:80%;
+	width:100%;
 }
 form p{
+	color:gray;
 	display: inline;
 }
 
