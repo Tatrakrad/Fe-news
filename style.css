@@ -117,9 +117,10 @@ q:before, q:after {
 .footer{
 	height:10%;
 	margin: 0 auto;
-	display: table;
+	border-top: 2px solid gray;
 }
 .footer-nav{
+	display: table;
 	margin:0 auto;
 }
 /*Aligns left??*/
@@ -138,6 +139,11 @@ q:before, q:after {
 	margin:0;
 	text-transform: none;
 	display:inline-block;
+}
+form{
+	display: inline-block;
+	margin: 0 auto;
+	text-align: center;
 }
 
 
