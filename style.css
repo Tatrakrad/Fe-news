@@ -55,17 +55,38 @@ q:before, q:after {
 }
 
 .top-bar{
-	padding:2% 0;
+	padding:1% 0;
 	margin:1% 0;
+	vertical-align: bottom;
+}
+
+.top-bar img{
+	display:inline-block;
+	float:left;
+	max-width:24px;
+	max-height:24px;
+	margin:0 0 0 1%;
+	vertical-align: bottom;
 }
 
 .top-bar > h2 {
-
-  width:15%;
-	margin-left: 4%;
-  padding: 0;
+	display: inline-block;;
+  width:10%;
+	margin:0;
+  padding:0 2%;
+	margin:0 0 0 0;
   float:left;
+	vertical-align: bottom;
+}
 
+.top-bar ul{
+	display: inline-block;
+	float:left;
+	margin:0;
+	padding:0;
+	overflow: auto;
+	width:40%;
+	vertical-align: bottom;
 }
 
 .article-list{
@@ -82,7 +103,7 @@ q:before, q:after {
   color:gray;
   float:none;
 	width:80%;
-	margin-left:2em;
+	margin:0;
 	padding: 0;
 
 }
