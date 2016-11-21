@@ -139,6 +139,10 @@ ul li{
 
 	list-style: decimal;
 	padding-left: 40px;
+
+}
+.inner li{
+	padding-bottom:12px;
 }
 
 .footer{
@@ -206,13 +210,14 @@ sub{
 }
 
 @media screen and (max-width: 720px){
-	.top-bar{
-		max-height: 30%;
-	}
+
 	ul li{
 		float:none;
 		clear:none;
 		overflow: auto;
+	}
+	.top-bar{
+		padding-bottom: 18px;
 	}
 	.top-bar > h2 {
 		display: inline-block;;
@@ -220,6 +225,5 @@ sub{
 	  padding:0 2%;
 		margin:0 auto;
 		top:0.3em;
-		vertical-align: bottom;
 	}
 }
