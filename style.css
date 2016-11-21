@@ -99,7 +99,7 @@ ul li{
 }
 .top-nav{
 	list-style-type: none;
-	border-left: 2px solid black;
+
 }
 .top-nav:last-child{
 	border:none;
@@ -110,12 +110,12 @@ ul li{
 {
 	overflow: auto;
   list-style-type:none;
-  color:gray;
+  color:black;
 	margin:0;
 	top:1px;
 	position: relative;
 	padding:1px 5px;
-
+	border-right: 1px solid black;
 }
 /*adding margin to the bottom pushes list and header down to next div. No vertical alignment? */
 /*how float left without going left of title, if title is floated parent collapses */
@@ -133,6 +133,7 @@ ul li{
 
 .inner p,h3{
   color:black;
+	text-indent: 24px;
 }
 
 .inner ol {
@@ -141,7 +142,9 @@ ul li{
 	padding-left: 40px;
 
 }
-.inner li{
+.inner ol li{
+	background-image: url(arrow-141-16.gif);
+	background-repeat:no-repeat;
 	padding-bottom:12px;
 }
 
