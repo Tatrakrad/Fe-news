@@ -53,10 +53,8 @@ ul li{
 
 .page-wrap{
   font-family:'Tahoma','Helvetica',sans-serif;
-  background-color:slategray;
   text-align:left;
-  width:80%;
-  height:100%;
+  max-width: 960px;
   margin:0 auto;
 	overflow: auto;
 }
@@ -64,7 +62,6 @@ ul li{
 .top-bar{
 
   background-color:orange;
-	max-width: 100%;
 	height:10%;
 	overflow: auto;
 
@@ -81,8 +78,6 @@ ul li{
 
 .top-bar > h2 {
 	display: inline-block;;
-  width:10%;
-	margin:0;
   padding:0 2%;
 	margin:0 auto;
 	top:0.3em;
@@ -104,17 +99,22 @@ ul li{
 }
 .top-nav{
 	list-style-type: none;
+	border-left: 2px solid black;
+}
+.top-nav:last-child{
+	border:none;
 }
 
-}
+
 .top-nav ul li
 {
 	overflow: auto;
   list-style-type:none;
   color:gray;
 	margin:0;
+	top:1px;
 	position: relative;
-	width:40%;
+	padding:1px 5px;
 
 }
 /*adding margin to the bottom pushes list and header down to next div. No vertical alignment? */
@@ -124,11 +124,11 @@ ul li{
 
 
 .inner{
-  background-color:gainsboro;
+	padding: 18px 0 0 0;
   color:black;
 	height:90%;
 	clear:both;
-
+	background: #F6F6EF;
 }
 
 .inner p,h3{
@@ -136,7 +136,8 @@ ul li{
 }
 
 .inner ol {
-	list-style:decimal;
+
+	list-style: decimal;
 	padding-left: 40px;
 }
 
@@ -155,13 +156,11 @@ ul li{
 	padding:2em 0;
   list-style-type:none;
   float:none;
-	width:100%;
 	text-align: center;
 }/*color works with below but not above selector?*/
 .footer-nav li{
 	color:black;
   float:left;
-	font-size:1em;
 	padding:0 0.2em 0 0;
 	margin:0;
 	text-transform: none;
@@ -199,6 +198,11 @@ ol{
 span{
   padding:0 .5em;
   color:gray;
+}
+sub{
+	font-size:.75em;
+	color:gray;
+
 }
 
 @media screen and (max-width: 720px){
